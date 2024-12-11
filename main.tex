@@ -1,0 +1,19 @@
+\documentclass[11pt, a4paper]{article}
+\input{template/packages}
+\input{template/macros}
+\input{template/settings}
+
+\def\thesisTitle{Titel der Arbeit}
+\def\thesisType{Typ der Arbeit}
+\def\authorName{Name des Autoren}
+\def\authorMatrikeln{Matrikelnummer}
+\def\authorMatrikel{Matrikel}
+\def\faculty{Fakultät}
+\def\place{Ort}
+
+\begin{document}
+\include{template/titlepage}
+\tableofcontents \newpage
+\subfile{content/content} \newpage
+\include{template/lastPages}
+\end{document}
